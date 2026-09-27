@@ -233,7 +233,7 @@ bound requires.
 ### 8.2 Codebook redundancy
 
 Count admissible codewords for the payload window $[1, n]$:
-$$T(n) := \#\{(a,b,c):\ 0 \le c \le \min(a,b),\ a^2 + b^2 - c^2 \in [1,n]\} = \Theta(n^{3/2}),$$
+$$T(n) := \left| \{(a,b,c):\ 0 \le c \le \min(a,b),\ a^2 + b^2 - c^2 \in [1,n]\} \right| = \Theta(n^{3/2}),$$
 with $T(n) \approx 0.12\, n^{3/2}$ measured for $n \le 10^6$ (the constraint $c \le \min(a,b)$
 is free by Lemma 4.1). Two readings of this redundancy:
 
